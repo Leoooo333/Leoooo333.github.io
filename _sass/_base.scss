@@ -137,7 +137,7 @@ blockquote {
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
@@ -191,12 +191,12 @@ blockquote {
     font-size: 1.7rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-theme-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
         i::before {
-          color: var(--global-theme-color);
+          color: var(--global-hover-color);
         }
       }
     }
@@ -256,7 +256,7 @@ blockquote {
     font-size: 4rem;
     a {
       i::before {
-        color: var(--global-text-color);
+        color: var(--global-icon-color);
         transition-property: all 0.2s ease-in-out;
       }
       &:hover {
@@ -274,6 +274,7 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
+  box-shadow: 0 2px 4px 0 rgb(0, 0, 0);
   background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
   .container {

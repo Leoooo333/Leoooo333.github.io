@@ -11,10 +11,11 @@
   --global-hover-color: #{$blue-color-dark};
   --global-footer-bg-color: #{$white-color};
   --global-footer-text-color: #{$grey-color};
-  --global-footer-link-color: #{$blue-color-light};
+  --global-footer-link-color: rgb(122, 175, 233);
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
+  --global-divider-color: #{$grey-color-light};
   --global-card-bg-color: #{$white-color};
+  --global-icon-color: #{$grey-color-dark};
 
   .fa-sun {
     display : none;
