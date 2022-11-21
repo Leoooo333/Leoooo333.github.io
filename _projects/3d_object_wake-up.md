@@ -1,7 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: 3D object wake-up
+description: >
+        3D Reconstruction, skeleton prediction and rigging from single RGB images.
 img: assets/img/12.jpg
 importance: 1
 category: Research

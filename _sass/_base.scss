@@ -64,13 +64,13 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
-
+  
   img {
     width: 100%;
   }
 
   .card-title {
-    color: var(--global-text-color);
+    color: var(--global-theme-color);
   }
 
   .card-item {
