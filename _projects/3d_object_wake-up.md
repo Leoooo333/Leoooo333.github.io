@@ -1,81 +1,42 @@
 ---
 layout: page
-title: 3D object wake-up
+title: 3D Object Wake-up
 description: >
-        3D Reconstruction, skeleton prediction and rigging from single RGB images.
-img: assets/img/12.jpg
+        3D reconstruction, skeleton prediction, and rigging from single RGB images.
+img: assets/img/3d_object_wake-up/preview.png
 importance: 1
 category: Research
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+*This work is supervised by Prof.**[Li Cheng](https://vision-and-learning-lab-ualberta.github.io/author/li-cheng/)**, cooperated with PhD.**[Ji Yang](https://vision-and-learning-lab-ualberta.github.io/author/ji-yang/)**, University of Alberta.*
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## Previous works
+Before I join in this project, the team have done these works. The [paper](https://kulbear.github.io/object-wakeup/) was published on ECCV 2022.
+- Render a skeleton prediction approach by utilizing the deep implicit functions. 
+- Build an automated pipeline to tackle the entire process of 3D reconstruction, rigging, and animation, all from single-view RGB images. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-md-center">
+    <div class="col-md-auto">
+        {% include figure.html path="assets/img/3d_object_wake-up/architecture.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    This two-stages architecture for 3D Rigging. The first stage on the left adopt the deep implicit method to reconstruct the 3D mesh from a single image. The right part was used to generate an 3D probability field, which aims to predict object's skeleton.
 </div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-md-center">
+    <div class="col-md-auto">
+        {% include figure.html path="assets/img/3d_object_wake-up/process.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    This image shows the whole process, including 3D reconstruction, skeleton, rigging, and animated result.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+## Works now
+We are trying to improve the previous work.
 
+Inspired by NeRF, we are making a great effort to adapt our two-stages network for an **end-to-end** pipeline.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+In this work, I design a neural network to extract the canonical feature from different views of an identical 3D model, which is pre-trained on rendered ShapeNet. We have got a little more accurate result than SOTA. The paper and code are on the way soon. 
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
