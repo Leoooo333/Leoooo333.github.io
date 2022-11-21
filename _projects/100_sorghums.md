@@ -1,80 +1,41 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
+title: Sorghum Identification-FGVC 9
+description: A Fine-Grained sorghum classification competition
+img: assets\img\100_sorghums\preview.jpg
+importance: 4
 category: Competition & Open Source
 ---
+*This is a Kaggle Competition🌿[Sorghum Identification-FGVC 9](https://www.kaggle.com/competitions/sorghum-id-fgvc-9/overview)*
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Descriptions
+The Sorghum-100 dataset consists of 48,106 images and 100 different sorghum cultivars grown in June of 2017 (the images come from the middle of the growing season when the plants were quite large but not yet lodging -- or falling over).
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Each image is taken using an RGB spectral camera taken from a vertical view of the sorghum plants in the TERRA-REF field in Arizona.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/100_sorghums/over-exposure.png" title="over-exposure" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/100_sorghums/common.png" title="common" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/100_sorghums/under-exposure.png" title="under-exposure" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    The photos of sorghums is highly effected by the sun light. As you can see, the left one is over-exposure, while the right is under-exposure.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+## My works
+- Rank: 28/221. Win silver medal notebook from my open-source PyTorch baseline of this competition.
+- Identify similar sorghum cultivars by RGB pictures of dense sorghum plants. Pre-process images by
+contrast limited AHE to avoid the impact of the over-exposure and under-exposure.
+- Experiments on K-fold cross-validation and test time augmentation to apply ensemble learning based on
+different models derived from different folds of the sorghum dataset.
 
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+## Contribution
+During the competition, I share my code, and write them into tutorials.
+1. [🌱✨Sorghum higer accuracy](https://www.kaggle.com/code/leoooo333/lb-0-885-sorghum-higer-accuracy), including images pre-process, k-fold cross-validation, test time augmentation and many tricks.
+2. [🌱🌿🌾Sorghum Speed UP!🚀](https://www.kaggle.com/code/leoooo333/sorghum-speed-up), which shows how to speed up training and inference processes by using Distributed Data Parrallel.
