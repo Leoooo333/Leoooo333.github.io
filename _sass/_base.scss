@@ -452,11 +452,12 @@ footer.sticky-bottom {
   }
 
   h2.category {
-    color: var(--global-divider-color);
+    color: var(--global-text-color-light);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
+    margin-right: 0.5rem;
     text-align: right;
   }
 }
@@ -480,12 +481,11 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    border-bottom: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
+    text-align: left;
   }
   ol.bibliography {
     list-style: none;
