@@ -2,7 +2,7 @@
 layout: page
 title: Sorghum Identification-FGVC 9
 description: A Fine-Grained sorghum classification competition
-img: assets\img\100_sorghums\preview.jpg
+img: assets/img/100_sorghums/preview.jpg
 importance: 4
 category: Competition & Open Source
 ---
