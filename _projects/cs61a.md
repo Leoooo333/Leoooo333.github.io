@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: CS61A
 description: Projects in UCB CS61A
 img: assets/img/cs61a/preview.png
 importance: 6
 category: Fun
+categories: 
 ---
 
 # [CS61A-2021Fall](https://inst.eecs.berkeley.edu/~cs61a/fa21/) 

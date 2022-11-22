@@ -17,8 +17,9 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
+    <p class="name"> {{ page.authors }} </p>
     <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}{%- if page.author -%} • {{ page.author }}{%- endif -%}{%- if page.meta -%} • {{ page.meta }}{%- endif -%}</p>
-    <p class="post-tags">
+    <!-- <p class="post-tags">
       <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}"> <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
       {%- if tags != "" %}
       &nbsp; &middot; &nbsp;
@@ -37,6 +38,40 @@ layout: default
       {% endif %}
 
     </p>
+    <ul class="list-inline"> -->
+
+      {% if page.pdf-link %}
+      <li class="list-inline-item"> 
+          <a class="btn" target="_blank" title="Download PDF" href="{{ page.pdf-link }}"><i class="fa fa-lg fa-file-pdf"></i> PDF</a>
+      </li>
+      {% endif %}
+
+      {% if page.supp-link %}
+      <li class="list-inline-item">
+          <a class="btn" target="_blank" title="Download Supplement" href="{{ page.supp-link }}"><i class="fa fa-lg fa-file"></i> Supplement</a>
+      </li>
+      {% endif %}
+
+      {% if page.code-link %}
+      <li class="list-inline-item">
+          <a class="btn" target="_blank" title="Code" href="{{ page.code-link }}"><i class="fa fa-lg fa-code"></i> Code</a>
+      </li>
+      {% endif %}
+
+      {% if page.pres-link %}
+      <li class="list-inline-item">
+          <a class="btn" target="_blank" title="Conference Presentation" href="{{ page.pres-link  }}"><i class="fa fa-lg fa-user"></i> Presentation</a>
+      </li>
+      {% endif %}
+
+
+      {% if page.video-link %}
+      <li class="list-inline-item">
+          <a class="btn" target="_blank" title="Video" href="{{ page.video-link  }}"><i class="fa fa-lg fa-video"></i> Video</a>
+      </li>
+      {% endif %}
+
+    </ul>
   </header>
 
   <article class="post-content">

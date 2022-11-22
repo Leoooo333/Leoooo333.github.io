@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: post
 title: SPACH Transplant
 description: Transplant a NN from GPU to Huawei NPU
 img: assets/img/spach_transplant/preview.png
 importance: 3
 category: Competition & Open Source
+categories: CV
 ---
 *This work is collaborated with Huawei Corporation.*
 

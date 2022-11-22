@@ -1,14 +1,16 @@
 ---
-layout: page
+layout: post
 title: Happywhale
 description: Whale and Dolphin Identification
 img: assets/img/happy_whale/preview.jpg
 importance: 5
 category: Competition & Open Source
+categories: CV
 ---
-*This is a Kaggle Competition🐳[Happywhale](https://www.kaggle.com/competitions/happy-whale-and-dolphin)*
+*This is a Kaggle Competition 🐳[Happywhale](https://www.kaggle.com/competitions/happy-whale-and-dolphin)*
 
 ## Descriptions
+***
 Algorithms developed in this competition will be implemented in Happywhale, a research collaboration and citizen science web platform. Its mission is to increase global understanding and caring for marine environments through high quality conservation science and education. Happywhale aims to make it easy and rewarding for the public to participate in science by building innovative tools to engage anyone interested in marine mammals. The platform also serves the research community with powerful collaborative tools.
 
 
@@ -29,11 +31,13 @@ Algorithms developed in this competition will be implemented in Happywhale, a re
 </div>
 
 ## My works
+***
 - Rank: 303/1588. Win silver medal notebook from my open-source PyTorch baseline of this competition.
 - Identify the whale individual only by pictures of their tails, fins, or heads. Apply U-Net to extract the fins
 out of the noisy background and thus make a purer dataset for this competition.
 
 ## Contribution
+***
 [🐳✨Background Remove Tutorial✨](https://www.kaggle.com/code/leoooo333/background-remove-tutorial) 
 
 During the competition, I publish a dataset, which contains the images after segmentation.
