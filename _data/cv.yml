@@ -21,13 +21,13 @@
   contents:
     - title: Research Assistant
       institution: University of Alberta
-      year: 09/2022 - Present
+      year: Sep.2022 - Present
       description:
         - Deep implicit 3D reconstruction
         - Learning the canonical latent representation of 3D models
     - title: Research Assistant
       institution: Northeastern University
-      year: 03/2022 - 07/2022
+      year: Mar.2022 - Jul.2022
       description:
         - Learning based short video recommendation algorithm
         - Feature engineering
