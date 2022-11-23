@@ -9,6 +9,7 @@ categories: CV
 ---
 *This is a Kaggle Competition 🐳[Happywhale](https://www.kaggle.com/competitions/happy-whale-and-dolphin)*
 
+***
 ## Descriptions
 ***
 Algorithms developed in this competition will be implemented in Happywhale, a research collaboration and citizen science web platform. Its mission is to increase global understanding and caring for marine environments through high quality conservation science and education. Happywhale aims to make it easy and rewarding for the public to participate in science by building innovative tools to engage anyone interested in marine mammals. The platform also serves the research community with powerful collaborative tools.

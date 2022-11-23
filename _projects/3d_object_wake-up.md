@@ -11,7 +11,7 @@ categories: CV, CG
 
 *This work is supervised by Prof.**[Li Cheng](https://vision-and-learning-lab-ualberta.github.io/author/li-cheng/)**, cooperated with PhD.**[Ji Yang](https://vision-and-learning-lab-ualberta.github.io/author/ji-yang/)**, University of Alberta.*
 
-
+***
 ## Previous works
 ***
 Before I join in this project, the team have done these works. The [paper](https://kulbear.github.io/object-wakeup/) was published on ECCV 2022.

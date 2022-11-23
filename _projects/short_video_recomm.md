@@ -9,6 +9,7 @@ categories: ML
 ---
 *This work is supervised by Prof.**[Guibing Guo](https://scholar.google.com/citations?user=YMXJa2EAAAAJ&hl=en)**, Northeastern University, China.*
 
+***
 ## Description
 ***
 In this project, I research individually, developing a recommendation algorithm for the short video. My work is below.
