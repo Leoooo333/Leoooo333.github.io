@@ -418,21 +418,10 @@ footer.sticky-bottom {
   }
 }
 
-.pagination {
-  .page-item {
-    .page-link {
-      color: var(--global-text-color);
-      &:hover {
-        color: $black-color;
-      }
-    }
-    &.active .page-link {
-      color: $white-color;
-      background-color: var(--global-theme-color);
-      &:hover {
-        background-color: var(--global-theme-color);
-      }
-    }
+.pagination .page-item.active .page-link {
+  background-color: var(--global-theme-color);
+  &:hover {
+    background-color: var(--global-theme-color);
   }
 }
 
