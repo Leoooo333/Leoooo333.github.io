@@ -3,6 +3,7 @@ layout: post
 title: SPACH Transplant
 description: Transplant a NN from GPU to Huawei NPU
 img: assets/img/spach_transplant/preview.png
+date: 2022-04-01
 importance: 3
 category: Competition & Open Source
 categories: CV

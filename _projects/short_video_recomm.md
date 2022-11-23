@@ -3,6 +3,7 @@ layout: post
 title: Short Video Recommend
 description: Learning-based recommendation algorithm
 img: assets/img/short_video_recomm/preview.png
+date: 2022-05-01
 importance: 2
 category: Research
 categories: ML

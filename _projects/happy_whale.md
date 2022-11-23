@@ -3,6 +3,7 @@ layout: post
 title: Happywhale
 description: Whale and Dolphin Identification
 img: assets/img/happy_whale/preview.jpg
+date: 2022-05-01
 importance: 5
 category: Competition & Open Source
 categories: CV

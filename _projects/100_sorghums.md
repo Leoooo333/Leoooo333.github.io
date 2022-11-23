@@ -3,9 +3,9 @@ layout: post
 title: Sorghum Identification-FGVC 9
 description: A Fine-Grained sorghum classification competition
 img: assets/img/100_sorghums/preview.jpg
+date: 2022-05-01
 importance: 4
 category: Competition & Open Source
-categories: CV, CG
 ---
 *This is a Kaggle Competition🌿[Sorghum Identification-FGVC 9](https://www.kaggle.com/competitions/sorghum-id-fgvc-9/overview)*
 

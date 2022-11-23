@@ -4,9 +4,9 @@ title: 3D Object Wake-up
 description: >
         3D reconstruction, skeleton prediction, and rigging from single RGB images.
 img: assets/img/3d_object_wake-up/preview.png
+date: 2022-11-20
 importance: 1
 category: Research
-categories: CV, CG
 ---
 
 *This work is supervised by Prof.**[Li Cheng](https://vision-and-learning-lab-ualberta.github.io/author/li-cheng/)**, cooperated with PhD.**[Ji Yang](https://vision-and-learning-lab-ualberta.github.io/author/ji-yang/)**, University of Alberta.*
