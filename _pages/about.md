@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: 
+subtitle: > Bachelor
+            Software College
+            [Northeastern University](http://english.neu.edu.cn/)
 
 profile:
   align: right
