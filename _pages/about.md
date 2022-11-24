@@ -4,7 +4,7 @@ title: About
 permalink: /
 subtitle: <p>Bachelor <br/> 
           Software College <br/>
-          <a href="http://english.neu.edu.cn/">Northeastern University></a></p>
+          <a href="http://english.neu.edu.cn/">Northeastern University</a></p>
 
 
 
