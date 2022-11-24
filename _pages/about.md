@@ -2,13 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: <p>Bachelor</p><p>Software College</p><p>[Northeastern University](http://english.neu.edu.cn/)</p>
+subtitle: <p>Bachelor <br/> 
+          Software College <br/>
+          <a href="http://english.neu.edu.cn/">Northeastern University></a></p>
 
 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Junming Photo.jpeg
   image_circular: false # crops the image to make it circular
   address: 
 
