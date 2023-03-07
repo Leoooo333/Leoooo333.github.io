@@ -24,8 +24,8 @@
   type: time_table
   contents:
     - title: Research Assistant
-      institution: University of Alberta
-      year: Sep.2022 - Present
+      institution: Prof.Li Cheng @ University of Alberta
+      year: Sep.2022 - Dec.2022
       description:
         - Deep implicit 3D reconstruction
         - Learning the canonical latent representation of 3D models

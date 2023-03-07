@@ -5,7 +5,7 @@ permalink: /projects/
 description: 
 nav: true
 nav_order: 2
-display_categories: [Research, Competition & Open Source, Fun]
+display_categories: [Research, Competition & Open Source, Courses & Fun]
 horizontal: true
 ---
 
