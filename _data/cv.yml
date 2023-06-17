@@ -4,7 +4,7 @@
     - name: Full Name
       value: Junming Chen
     - name: Contact
-      value: leochenjm [at] gmail [dot] com
+      value: leochenjm@gmail.com
     - name: Languages
       value: English, Chinese
 
@@ -14,16 +14,26 @@
     - title: Visiting Student in Computer Science
       institution: University of California, San Diego
       year: 2023 Spring
-      description:
+      description: GPA:4.0
     - title: B.E. in Software Engineering
       institution: Northeastern University
       year: 2020 - 2024
-      description:
+      description: GPA:92.1/100
 
 - title: Experience
   type: time_table
   contents:
     - title: Research Assistant
+      institution: Prof.Jean-François Lalonde @ Université Laval
+      year: July.2023 - Present
+      description:
+        - Light estimation and Inverse rendering
+    - title: Undergraduate Researcher
+      institution: Prof.Manmohan Chandraker @ University of California, San Diego
+      year: April.2023 - Present
+      description:
+        - 3D Reconstruciton and Inverse rendering
+    - title: Remote Researcher
       institution: Prof.Li Cheng @ University of Alberta
       year: Sep.2022 - Dec.2022
       description:
