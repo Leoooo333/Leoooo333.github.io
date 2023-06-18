@@ -4,7 +4,7 @@ title: CS61A
 description: Projects in UCB CS61A
 img: assets/img/cs61a/preview.png
 date: 2022-02-01
-importance: 6
+importance: 7
 category: Courses & Fun
 categories: 
 ---
