@@ -19,8 +19,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a third-year bachelor's student at Northeastern University, majoring in Software Engineering. Besides a strong interest in coding, I'm also keen on mathematics. My research interests lie in 3D computer vision and computer graphics, like neural rendering and 3D reconstruction.
+I am a forth-year bachelor's student at Northeastern University, majoring in Software Engineering. My lifelong goal is to join the real world to the virtual, ushering the “metaverse” into reality. 
 
-I currently have a focus on inverse rendering problems, especially on the part of the light estimation and editable scene reconstruction.
+My research interests lie in Computer Vision and Computer Graphics. I currently have a focus on inverse rendering problems, especially on the part of the light estimation and editable scene reconstruction.
 
 

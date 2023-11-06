@@ -18,7 +18,7 @@
     - title: B.E. in Software Engineering
       institution: Northeastern University
       year: 2020 - 2024
-      description: GPA:92.1/100
+      description: GPA:92/100
 
 - title: Experience
   type: time_table
@@ -27,12 +27,12 @@
       institution: Prof.Jean-François Lalonde @ Université Laval
       year: July.2023 - Present
       description:
-        - Light estimation and Inverse rendering
+        - HDR Light estimation
     - title: Undergraduate Researcher
       institution: Prof.Manmohan Chandraker @ University of California, San Diego
-      year: April.2023 - Present
+      year: April.2023 - July.2023
       description:
-        - 3D Reconstruciton and Inverse rendering
+        - 3D Virtual Datasets Creating and Inverse Rendering
     - title: Remote Researcher
       institution: Prof.Li Cheng @ University of Alberta
       year: Sep.2022 - Dec.2022
