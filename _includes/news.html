@@ -1,11 +1,11 @@
-          
+    
 <div class="news">
   <h2>news</h2>
   {% if site.data.news  %}
     <div class="table-responsive">
       <div id="news-table_wrapper" class="dataTables_wrapper no-footer">
         <table id="news-table" class="table table-sm table-borderless w-auto dataTable no-footer" role="grid">
-          <thead style="display: none;"><th></th><th></th></thead>
+            <thead style="display: none;"><th></th><th></th></thead>
           <tbody>
           {% assign news = site.data.news %}
           {% for item in news %}

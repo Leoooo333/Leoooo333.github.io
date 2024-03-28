@@ -12,7 +12,7 @@ $(document).ready(function() {
         "info":     false,
         "searching": false,
         "bLengthChange": false,
-        "pageLength": 5,
+        "pageLength": 3,
         "pagingType": "simple",
         "language": {
         "paginate": {
