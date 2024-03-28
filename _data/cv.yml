@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Junming Chen
+      value: Junming (Leo) Chen
     - name: Contact
       value: leochenjm@gmail.com
     - name: Languages
@@ -24,8 +24,13 @@
   type: time_table
   contents:
     - title: Research Assistant
+      institution: Prof.Siyu Zhu @ Fudan University
+      year: Jan.2024 - Present
+      description:
+        - Video Generation
+    - title: Research Assistant
       institution: Prof.Jean-François Lalonde @ Université Laval
-      year: July.2023 - Present
+      year: July.2023 - Oct.2023
       description:
         - HDR Light estimation
     - title: Undergraduate Researcher

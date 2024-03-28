@@ -21,6 +21,6 @@ social: false  # includes social icons at the bottom of the page
 
 I am a forth-year bachelor's student at Northeastern University, majoring in Software Engineering. My lifelong goal is to join the real world to the virtual, ushering the “metaverse” into reality. 
 
-My research interests lie in Computer Vision and Computer Graphics. I currently have a focus on inverse rendering problems, especially on the part of the light estimation and editable scene reconstruction.
+My research interests lie in Computer Vision and Computer Graphics. I currently have a focus on Genrative Model and application on Video Generation.
 
 
