@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Have no papers yet. Wish I will publish my works soon!
-years: [2023]
+description: "* indicates equal contribution."
+years: [2024]
 nav: true
 nav_order: 1
 ---
