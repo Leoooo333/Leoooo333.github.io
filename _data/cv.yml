@@ -25,14 +25,14 @@
   contents:
     - title: Research Assistant
       institution: Prof.Siyu Zhu @ Fudan University
-      year: Jan.2024 - Present
+      year: Jan.2024 - Apr.2024
       description:
-        - Video Generation
+        - Video Generation, controllable human image animation
     - title: Research Assistant
       institution: Prof.Jean-François Lalonde @ Université Laval
       year: July.2023 - Oct.2023
       description:
-        - HDR Light estimation
+        - HDR Light capture & estimation
     - title: Undergraduate Researcher
       institution: Prof.Manmohan Chandraker @ University of California, San Diego
       year: April.2023 - July.2023
@@ -43,11 +43,9 @@
       year: Sep.2022 - Dec.2022
       description:
         - Deep implicit 3D reconstruction
-        - Learning the canonical latent representation of 3D models
     - title: Research Assistant
       institution: Prof.Guibing Guo @ Northeastern University
       year: Mar.2022 - Jul.2022
       description:
-        - Learning based short video recommendation algorithm
-        - Feature engineering
+        - Learning based short video recommendation
 
