@@ -1,6 +1,13 @@
-"Shenhao":
-  - firstname: ["Shenhao", "Shenhao Zhu"]
+"Zhu":
+  - firstname: ["Shenhao"]
     url: https://github.com/ShenhaoZhu
+
+  - firstname: ["Siyu"]
+    url: https://sites.google.com/site/zhusiyucs
+
+"Dai":
+  - firstname: ["Zuozhuo"]
+    url: https://github.com/daizuozhuo
 
 "Podolsky":
   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
