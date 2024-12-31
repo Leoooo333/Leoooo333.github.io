@@ -23,7 +23,7 @@ I am a graduate student at UC Berkeley EECS🐻. My lifelong goal is to join the
 
 My research interests lie in Computer Vision and Computer Graphics, particularly on Generative Models and their applications in Video Generation🌊.
 
-🌟Seeking full-time opportunities beginning in the summer of 2025.
+🌟Seeking a full-time job beginning from June 2025🌟.
 
 
 
